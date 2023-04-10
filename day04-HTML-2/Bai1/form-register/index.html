@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký học viên</title>
+</head>
+<body>
+    <h2>Form đăng ký học viên</h2>
+    <table bgcolor="#fffda8" width="400">
+        <tr bgcolor="#d4fdd6">
+            <td colspan="2"><b><span style="color: blue;">ĐĂNG KÝ HỌC VIÊN</span></b></td>
+        </tr>
+        <tr>
+            <td><label for="name" name="name"><span style="color: blue;">Họ và tên</span></label></td>
+            <td>
+                <input type="text" name="name" required>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="birthday" name="birthday"><span style="color: blue;">Ngày sinh</span></label></td>
+            <td>
+                <input type="datetime" name="birthday">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="gender" name="gender"></label><span style="color: blue;">Giới tính</span></td>
+            <td>
+                
+                <input type="radio" name="gender" value="">
+                <label for="gender" name="gender">Nam</label>
+                
+                <input type="radio" name="gender" value="">
+                <label for="gender" name="gender">Nữ</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="address" name="address"><span style="color: blue; vertical-align: top;">Địa chỉ</span></label></td>
+            <td>
+                <textarea name="address" id="address" cols="20" rows="3"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="class" name="class"><span style="color: blue;">Lớp</span></label></td>
+            <td>
+                <select name="class" id="class">
+                    <option value=""select>--Chọn lớp--</option>
+                    <option value="B1">B1</option>
+                    <option value="B2">B2</option>
+                    <option value="B3">B3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="email" name="email"><span style="color: blue;">Email</span></label></td>
+            <td>
+                <input type="email" name="email" value="">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="phone" name="phone"><span style="color: blue;">Điện thoại</span></label></td>
+            <td>
+                <input type="number" name="phone">
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Đăng ký">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
