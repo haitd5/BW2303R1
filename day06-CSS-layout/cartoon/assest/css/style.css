@@ -1,0 +1,130 @@
+body {
+    padding: 10px;
+    margin: 10px;
+}
+.container {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #C5DFEA;
+    border-radius: 5px;
+}
+.logo {
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 300px;
+    float: left;
+    text-align: center;
+}
+.box-menu {
+    padding-top: 40px;
+    position: relative;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+.menu li {
+    padding: 10px 40px;
+    cursor: pointer;
+    position: relative;
+}
+.menu li a {
+    text-decoration: none;
+    color: #1A3681;
+    font-weight: 500;
+}
+.menu li:hover {
+    background-color: bisque;
+}
+.sub-menu {
+    padding: 0px;
+    background-color: #C5DFEA;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    list-style-type: none;
+    visibility: hidden;
+}
+.menu li:hover .sub-menu {
+    visibility: visible;
+}
+.content {
+    width: 900px;
+    /* height: 450px; */
+    padding-right: 50px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.left-row {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.avatar {
+    width: 220px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+}
+.watch {
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    
+}
+.watch a {
+    text-decoration: none;
+    color: white;
+}
+.fanpage {
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.fanpage a {
+    text-decoration: none;
+    color: white;
+}
+.main-content {
+    padding-left: 20px;
+    color: #1A3681;
+    ;
+}
+.main-content .title {
+    margin: 10px 0px;
+    font-size: 24px;
+    line-height: 30px;
+}
+.main-content .title2 {
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+.sidebar {
+    width: 300px;
+    position: relative;
+    left: 400px;
+
+}
+.sidebar-list {
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+}
+.sidebar-list-item {
+    text-align: center;
+    color: #1A3681;
+}
+footer {
+    text-align: center;
+    color: #4c8072;
+    font-size: large;
+    background-color: #FEDCC8;
+    width: 100%;
+}
