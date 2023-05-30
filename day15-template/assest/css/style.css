@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url("../font/Noto_Sans/NotoSans-Regular.ttf");
+}
+* {
+    font-family: 'Noto Sans',sans-serif;
+    font-size: 20px;
+}
+body {
+    background-color: #EBF4FE;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color: #EBF4FE;
+}
+.bg-none {
+    background-color: #EBF4FE;
+}
+.card-text {
+    text-align: justify;
+    font-size: .75rem;
+}
+.card-title {
+    font-size: 1rem;
+    font-weight: 800;
+}
+.text-color {
+    color: #6882A5;
+}
+.bg-color1 {
+    background-color: #A647F8;    
+}
+/* @media screen and (max-width: 991px) {
+    .card:not(:first-child){
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card:not(:first-child){
+        display: none;
+    }
+    .arousel-item {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+} */
